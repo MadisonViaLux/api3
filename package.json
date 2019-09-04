@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/MadisonViaLux/api3/issues"
   },
-  "homepage": "https://github.com/MadisonViaLux/api3#readme"
+  "homepage": "https://github.com/MadisonViaLux/api3#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
 }
