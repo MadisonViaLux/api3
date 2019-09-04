@@ -1,13 +1,5 @@
-server.get('/products', (req, res) => {
-    
-});
+const server = require('./api/server');
 
 
-server.get('/clients', (req, res) => {
-    
-});
-
-
-server.get('/products', (req, res) => {
-    
-});
+const port = 7777
+server.listen(port, () => console.log(`\n API on port ${port}\n`))
